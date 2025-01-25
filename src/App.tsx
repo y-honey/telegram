@@ -10,6 +10,7 @@ import {
   RewardPage,
   BuyHTC,
   Earn,
+  Boosters,
 } from '@/pages'
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
             <Route path="/invite" element={<InviteFriendPage />} />
             <Route path="/buyhtc" element={<BuyHTC />} />
             <Route path="/earn" element={<Earn />} />
+            <Route path="/boosters" element={<Boosters />} />
           </Route>
 
           <Route path="/anniversary" element={<AnniversaryPage />} />

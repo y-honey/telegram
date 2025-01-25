@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { Community, Content, Header, Rewards } from '@/components'
 import { UserSection } from '@/components/UserSection';
-import { ComingSoon } from '@/components/ComingSoon';
+import { MusicPlayer } from '@/components/MusicPlayer';
 import { OverlayButton } from '@/components/OverlayButton';
 import BackLogo from '@/assets/images/Group 1000002443.png';
 import { useCallback } from 'react';
@@ -39,7 +39,7 @@ export const HomePage = () => {
           Tonic Sofa Gamify System
         </p>
         <div className='relative mt-4'>
-          <ComingSoon />
+          <MusicPlayer />
         </div>
         <div className='flex justify-around mt-[22px]'>
           <OverlayButton label='Start Farming'/>

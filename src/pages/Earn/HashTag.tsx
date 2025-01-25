@@ -3,7 +3,7 @@ import { OverlayButton } from "@/components/OverlayButton";
 import BackLogo from '@/assets/images/Group 1000002443.png';
 import { Referals } from "@/components/Referals";
 import { ClaimReward } from '@/components/ClaimReward';
-import { ComingSoon } from "@/components/ComingSoon";
+import { MusicPlayer } from "@/components/MusicPlayer";
 
 const subscribes = [
   {
@@ -40,11 +40,11 @@ export const HashTag = ({}) => {
       <div className="mt-[22px] flex flex-col gap-2">
         {subscribes.map((sub) => <ClaimReward value={sub} />)}
       </div>
-      <p className="mt-2 text-[18px] leading-[20px] font-[700]">Tonic Sofa Gamify System</p>
+      {/* <p className="mt-2 text-[18px] leading-[20px] font-[700]">Tonic Sofa Gamify System</p> */}
       <div className="mt-2">
-        <ComingSoon className="py-[6px] h-[54px]"/>
+        <MusicPlayer className="py-[6px] h-[54px]"/>
       </div>
-      <div className='absolute top-[-72px] flex justify-center items-center opacity-[12%]'>
+      <div className='absolute bottom-[38px] flex justify-center items-center opacity-[12%]'>
         <img src={BackLogo}/>
       </div>
     </div>

@@ -15,7 +15,7 @@ const Switch: React.FC<SwitchProps> = ({ width, options, onOptionChange }) => {
     console.log('component: ', option)
     setSelected(option);
     onOptionChange(option);
-  }, [setSelected])
+  }, [setSelected, onOptionChange])
 
   return (
     <div className={`flex gap-4 w-${width} rounded-[10px] bg-[#F4FDFF] border-[#A7A7CC]`}>

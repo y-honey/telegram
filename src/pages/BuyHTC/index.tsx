@@ -1,6 +1,6 @@
 import { Community, Content, Header, Rewards } from '@/components'
 import { UserSection } from '@/components/UserSection';
-import { ComingSoon } from '@/components/ComingSoon';
+import { ComingSoon } from '@/components/MusicPlayer';
 import { OverlayButton } from '@/components/OverlayButton';
 import BackLogo from '@/assets/images/Group 1000002443.png';
 import { Switch } from '@/components/Switch';
