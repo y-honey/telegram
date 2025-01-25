@@ -1,5 +1,5 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
-import MainLayout from '@/components/MainLayout'
+import MainLayout from '@/components/layouts/MainLayout'
 
 import { THEME, TonConnectUIProvider } from '@tonconnect/ui-react'
 import {
@@ -8,6 +8,8 @@ import {
   InviteFriendPage,
   LeaderboardPage,
   RewardPage,
+  BuyHTC,
+  Earn,
 } from '@/pages'
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/leaderboard" element={<LeaderboardPage />} />
             <Route path="/invite" element={<InviteFriendPage />} />
+            <Route path="/buyhtc" element={<BuyHTC />} />
+            <Route path="/earn" element={<Earn />} />
           </Route>
 
           <Route path="/anniversary" element={<AnniversaryPage />} />

@@ -11,10 +11,10 @@ const ButtonBottom: React.FC<ButtonProps> = ({ icon, label, to }) => {
     <NavLink
       to={to}
       className={({ isActive }) =>
-        `text-center w-1/5 ${isActive ? 'text-white' : 'text-[#85827d]'}`
+        `text-center text-white`
       }>
-      <div className="w-8 h-8 mx-auto">{icon}</div>
-      <p className="mt-1">{label}</p>
+      <div className="flex justify-center align-center mx-auto">{icon}</div>
+      <p className="mt-[2px] text-3">{label}</p>
     </NavLink>
   )
 }
